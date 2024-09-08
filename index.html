@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WrestStyle</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <!--BARA DE SUS-->
+        <div class="top" id="top">
+            <div class="container">
+                <div class="medal">
+                    <img src="img/medal.png" alt="">
+                </div> 
+                <div class="top-bar">
+                    <div class="row">
+                        <div class="col-md-1 col-1">
+                            <div class="logo"> <!--LOGO-->
+                                <a href="#top"><img class="logo-top" src="img/logoalb.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="offset-md-2 col-md-5 col-9">
+                            <div class="links"> <!--LINKURI TOP-->
+                                <div class="links-top" style="margin-left: 6px;">
+                                    <a class="links-top-txt" href="singlets.html">Singlets</a>
+                                </div>
+                                <div class="links-top">
+                                    <a class="links-top-txt" href="shoes.html">Shoes</a>
+                                </div>
+                                <div class="links-top">
+                                    <a class="links-top-txt" href="rashguards.html">Rashguards</a>
+                                </div>
+                                <div class="links-top">
+                                    <a class="links-top-txt" href="clothes.html">Clothes</a>
+                                </div>
+                                <div class="links-top dnn">
+                                    <a class="links-top-txt" href="aboutus.html">About us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-1">
+                            <div class="curency-div">
+                                <label for="currency"></label>
+                            <select class="curency-select" id="currency" onchange="convertCurrency()">
+                                <option value="EUR">🇪🇺 EUR</option>
+                                <option value="USD">🇺🇸 USD</option>
+                                <option value="MDL">🇲🇩 MDL</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-txt">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="top-txt-tittle">
+                                <h1 class="h1">Dominate the Mat with<br>High-Performance<br>Wrestling Wear</h1>
+                            </div>
+                            <div class="top-txt-subtxt">
+                                <p class="p">Step onto the mat with confidence in our<br>premium gear designed for champions.<br>Unleash your potential with every move.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-btns">
+                    <div class="row">
+                        <div class="col-md-2 col-6">
+                            <div class="top-btns-one ib">
+                                <button onclick="location.href='#categories'"  class="main-btn">Shop Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-6">
+                            <div class="top-buttons-second ib">
+                                <button onclick="showDiv()" class="main-btn">Contact us</button>
+                            </div>
+                        </div>
+                        <div class="contact" id="myDiv">
+                            <button onclick="hideDiv()" class="btn contact-close">X</button>
+                            <div class="footer-main-logo">
+                                <a href="tel:+37369569055"><h1 class="h1">+373 69 569 055</h1></a>
+                            </div>
+                            <div class="footer-main-icons ml">
+                                <div class="inst ib">
+                                    <a href="https://www.instagram.com/wreststyles/"><img src="img/inst.svg" alt="inst"></a>
+                                </div>
+                                <div class="facebook ib">
+                                    <a href="https://www.facebook.com/profile.php?id=61550940031325"><img src="img/facebook.svg" alt="facebook"></a>
+                                </div>
+                                <div class="tiktok ib">
+                                    <a href="#"><img src="img/tiktok.svg" alt="tiktok"></a>
+                                </div>
+                                <div class="mail ib">
+                                    <a href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Ask%20your%20question)"><img src="img/mail.svg" alt="mail"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CATEGORII-->
+        <div class="catg" id="categories">
+            <div class="container">
+                <div class="catg-main">
+                        <div class="catg-tittle ib">
+                            <h2 class="h2">Categories</h2>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="catg-subtxt">
+                                <p class="p">Victory Starts Here: Your One-Stop Shop for<br>Wrestling Excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catg-list">
+                        <div class="row">
+                             <div class="col-md-6 p0">
+                                <div class="singlets">
+                                    <a class="tdn" href="singlets.html"><div class="singlets-btn">
+                                        <div class="singlets-img">
+                                            <img src="img/sing.png" alt="singlet">
+                                        </div>
+                                        <div class="singlets-ttl">
+                                            <p class="category">SINGLETS</p>
+                                        </div>
+                                    </div></a>
+                                </div>
+                             </div>
+                             <div class="col-md-3 p0">
+                                <div class="clothes">
+                                    <a href="clothes.html">
+                                        <div class="clothes-img">
+                                            <img class="clothes-img-1" src="img/clothes.png" alt="clothes">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="shoes">
+                                    <a href="shoes.html">
+                                        <div class="shoes-img">
+                                            <img src="img/shoes.png" alt="shoes" class="shoes-img-1">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rasg">
+                                    <a href="rashguards.html">
+                                        <div class="rasg-img">
+                                            <img src="img/rasg.png" alt="rashguards" class="rasg-img-1">
+                                        </div>
+                                    </a>
+                                </div>
+                             </div>
+                             <div class="col-md-3 p0">
+                                <div class="clothes-2">
+                                    <a class="tdn" href="clothes.html">
+                                        <div class="clothes-ttl">
+                                            <p class="category">CLOTHES</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="shoes-2">
+                                    <a href="shoes.html" class="tdn">
+                                        <div class="shoes-ttl">
+                                            <p class="category">SHOES</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rasg-2">
+                                    <a href="rashguards.html" class="tdn">
+                                        <div class="rasg-ttl">
+                                            <p class="category">RASHGUARDS</p>
+                                        </div>
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--PRODUCTS-->
+        <div class="products">
+            <div class="container">
+                <div class="products-main">
+                    <div class="products-tittle ib">
+                        <h2 class="h2">Wrest With Style</h2>
+                    </div>
+                <div class="row">
+                    <div class="offset-md-8 col-md-4">
+                        <div class="products-subtxt">
+                            <p class="p">Takedown the Competition: Trusted by Pros, Designed for You</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--CAROUSEL-->
+            <div class="container">
+                <div class="slider-container" id="prdct-slider">
+                    <div class="slides-wrapper">
+                      <div class="slides-container">
+                        <ul class="slider-list">
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="singlets/singlet06.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>NEW</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/singlets/bluelini.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="singlets/singlet06.html">
+                                            <p class="p prdct-label">Wrestling Singlet MDA #06</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="red"></div>
+                                    <div class="blue"></div>
+                                    <a class="ib tdn" href="singlets/singlet06.html"><p class="p prdct-label prdct-price price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="rashguards/judo.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>NEW</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/rashguards/judo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="rashguards/judo.html">
+                                            <p class="p prdct-label">JUDO Rashguard</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                    <div class="black-style"></div>
+                                    <div class="red"></div>
+                                    <div class="white-style"></div>
+                                    <a class="ib tdn" href="rashguards/judo.html"><p class="p prdct-label prdct-price price"data-usd="50" data-eur="40" data-mdl="800">40 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="singlets/singlet05.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>HOT</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/rosu 2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="singlets/singlet05.html">
+                                            <p class="p prdct-label">Wrestling Singlet ROU #05</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="red"></div>
+                                    <div class="blue"></div>
+                                    <a class="ib tdn" href="singlets/singlet05.html"><p class="p prdct-label prdct-price price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="singlets/singlet10.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>HOT</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/singlets/bluero.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="singlets/singlet10.html">
+                                            <p class="p prdct-label">Wrestling Singlet ROU #10</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="red"></div>
+                                    <div class="blue"></div>
+                                    <a class="ib tdn" href="singlets/singlet10.html"><p class="p prdct-label prdct-price price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="singlets/singlet12.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>HOT</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/singlets/bluerec.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="singlets/singlet12.html">
+                                            <p class="p prdct-label">Wrestling Singlet MDA #12</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="red"></div>
+                                    <div class="blue"></div>
+                                    <a class="ib tdn" href="singlets/singlet12.html"><p class="p prdct-label prdct-price price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="shoes/inflict-se.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>NEW</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/shoes/inflict/SE.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="shoes/inflict-se.html">
+                                            <p class="p prdct-label">NIKE Inflict SE</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="white-pink-style"></div>
+                                    <a class="ib tdn" href="shoes/inflict-se.html"><p class="p prdct-label prdct-price price"data-usd="160" data-eur="150" data-mdl="3000">150 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="shoes/inflict-white.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>HOT</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/shoes/inflict/white.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="shoes/inflict-white.html">
+                                            <p class="p prdct-label">NIKE Inflict 3</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="white-style"></div>
+                                    <a class="ib tdn" href="shoes/inflict-white.html"><p class="p prdct-label prdct-price price"data-usd="150" data-eur="140" data-mdl="2800">140 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="shoes/inflict-black.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>HOT</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/shoes/inflict/black.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="shoes/inflict-black.html">
+                                            <p class="p prdct-label">NIKE Inflict 3</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="black-style"></div>
+                                    <a class="ib tdn" href="shoes/inflict-black.html"><p class="p prdct-label prdct-price price"data-usd="150" data-eur="140" data-mdl="2800">140 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                          <li class="slider-item">
+                            <a href="slide-link-url">
+                                <div class="prdct">
+                                    <a class="full" href="singlets/singlet13.html">
+                                        <div class="prdct-lab">
+                                            <div class="red-hot"><div class="red-hot-txt"><p>NEW</p></div></div>
+                                            <div class="prdct-lab-img">
+                                                <img src="img/singlets/redstem.png" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="prdct-name">
+                                        <a class="tdn" href="singlets/singlet13.html">
+                                            <p class="p prdct-label">Wrestling Singlet MDA #13</p>
+                                        </a>
+                                    </div>
+                                    <div class="prdct-info">
+                                        <div class="red"></div>
+                                    <div class="blue"></div>
+                                    <a class="ib tdn" href="singlets/singlet13.html"><p class="p prdct-label prdct-price price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p></a>
+                                    </div>
+                                </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="slider-arrows">
+                      <button type="button" class="slider-arrow-prev"><img class="arrow" src="img/prev.svg" alt="prev"></button>
+                      <button type="button" class="slider-arrow-next"><img class="arrow" src="img/next.svg" alt="next"></button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="container">
+                <div class="subscribe-tittle" id="subs">
+                    <h2 class="h2">Stay Tuned!</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="subscribe-main">
+                            <div class="subscribe-main-content">
+                                <div class="subscribe-main-content-top">
+                                    <img src="img/medals-subscribe.png" alt="">
+                                </div>
+                                <div class="subscribe-main-content-txt">
+                                    <div class="subscribe-main-content-txt-h2"><h2 class="h2">Subscribe and get 5% off on your first order!</h2></div>
+                                    <div class="subscribe-main-content-txt-p"><p class="p">Stay in the loop with wrestling gear releases, member-only discounts, and expert tips. Your path to victory starts here.</p></div>
+                                </div>
+                                <div class="subscribe-main-content-input">
+                                    <form  action="https://formspree.io/f/xgvwqdzd" method="POST">
+                                    <div class="input-input ib"><label for="email"><input class="subs-input" placeholder="Your e-mail" type="email" id="email" name="email" required></label></div>
+                                    <div class="input-button ib"><button type="submit" class="subs-button">I'm in!</button></div>
+                                    <label class="label-singlet" for="Model" style="display: none;">Opțiune unică</label>
+                            <select class="select-singlet" id="singleOption" name="Subscribe" style="display: none;" required>
+                                <option value="Subscribe">Subscribe</option>
+                            </select>
+                                </div>
+                            </div>
+                            <div class="colt">
+                                <img src="img/colt.svg" alt="">
+                            </div>
+                            <div class="colt-alb"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-in" id="career">
+            <div class="all-in-img">
+                <img class="all-in-img-main" src="img/all-in.png" alt="ALL IN">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-main-logo">
+                                <h1 class="h1">WREST STYLE</h1>
+                            </div>
+                            <div class="footer-main-icons">
+                                <div class="inst ib">
+                                    <a href="https://www.instagram.com/wreststyles/"><img src="img/inst.svg" alt="inst"></a>
+                                </div>
+                                <div class="facebook ib">
+                                    <a href="https://www.facebook.com/profile.php?id=61550940031325"><img src="img/facebook.svg" alt="facebook"></a>
+                                </div>
+                                <div class="tiktok ib">
+                                    <a href="#"><img src="img/tiktok.svg" alt="tiktok"></a>
+                                </div>
+                                <div class="mail ib">
+                                    <a href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Ask%20your%20question)"><img src="img/mail.svg" alt="mail"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offset-md-1 col-md-2">
+                            <div class="footer-main-shop">
+                                <h4 class="h4">SHOP</h4>
+                            </div>
+                            <div class="footer-main-shop-list">
+                                <div class="footer-main-shop-list-singlets">
+                                    <a class="tdn black" href="singlets.html"><p class="p footer-main-list-p">Singlets</p></a>
+                                </div>
+                                <div class="footer-main-shop-list-shoes">
+                                    <a class="tdn black" href="shoes.html"><p class="p footer-main-list-p">Shoes</p></a>
+                                </div>
+                                <div class="footer-main-shop-list-rashguards">
+                                    <a class="tdn black" href="rashguards.html"><p class="p footer-main-list-p">Rashguards</p></a>
+                                </div>
+                                <div class="footer-main-shop-list-clothes">
+                                    <a class="tdn black" href="clothes.html"><p class="p footer-main-list-p">Clothes</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="footer-main-company">
+                                <h4 class="h4">COMPANY</h4>
+                            </div>
+                            <div class="footer-main-company-list">
+                                <div class="footer-main-company-list-ctg">
+                                    <a class="tdn black" href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Custom%20Team%20Gear)"><p class="p footer-main-list-p">Custom Team Gear</p></a>
+                                </div>
+                                <div class="footer-main-company-list-staytuned">
+                                    <a class="tdn black" href="#subs"><p class="p footer-main-list-p">Stay Tuned</p></a>
+                                </div>
+                                <div class="footer-main-company-list-careers">
+                                    <a class="tdn black" href="#career"><p class="p footer-main-list-p">Careers</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="footer-main-support">
+                                <h4 class="h4">SUPPORT</h4>
+                            </div>
+                            <div class="footer-main-support-list">
+                                <div class="footer-main-support-list-contact">
+                                    <a onclick="showDiv()" class="tdn black" href="#top"><p class="p footer-main-list-p">Contact</p></a>
+                                </div>
+                                <div class="footer-main-support-list-shipping">
+                                    <a class="tdn black" href="noacces.html"><p class="p footer-main-list-p">Shipping</p></a>
+                                </div>
+                                <div class="footer-main-support-list-re">
+                                    <a class="tdn black" href="noacces.html"><p class="p footer-main-list-p">Returns & Exchanges</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-perms">
+                            <div class="footer-bottom-perms-terms ib">
+                                <a class="tdn white" href="noacces.html"><p class="micro">Terms</p></a>
+                            </div>
+                            <div class="footer-bottom-perms-privacy ib">
+                                <a class="tdn white" href="noacces.html"><p class="micro">Privacy</p></a>
+                            </div>
+                            <div class="footer-bottom-perms-accessibility ib">
+                                <a class="tdn white" href="noacces.html"><p class="micro">Accessibility</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

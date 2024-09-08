@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrestling Singlets #01</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/singlets.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="topb">
+            <div class="container">
+               <div class="top-bar">
+                   <div class="row">
+                       <div class="col-md-1 col-1">
+                           <div class="logo"> <!--LOGO-->
+                               <a href="../index.html"><img class="logo-top" src="../img/logoalb.png" alt="Logo"></a>
+                           </div>
+                       </div>
+                       <div class="offset-md-1 col-md-8 col-9">
+                           <div class="links"> <!--LINKURI TOP-->
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../singlets.html">Singlets</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../shoes.html">Shoes</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../rashguards.html">Rashguards</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../clothes.html">Clothes</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../aboutus.html">About us</a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-1 col-1">
+                        <div class="curency-div ib">
+                            <label for="currency"></label>
+                        <select class="curency-select" id="currency" onchange="convertCurrency()">
+                            <option value="EUR">🇪🇺 EUR</option>
+                            <option value="USD">🇺🇸 USD</option>
+                            <option value="MDL">🇲🇩 MDL</option>
+                        </select>
+                        </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <div class="singlets-carousel"> <!-- IMAGINILE -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="red-blue-carousel">
+                            <div id="red-blue" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/singlets/bluest.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/singlets/redst.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="red-prev" type="button" data-bs-target="#red-blue" data-bs-slide="prev"></button>
+                                <button class="blue-next" type="button" data-bs-target="#red-blue" data-bs-slide="next"></button>
+                                <div class="ib">
+                                    <div class="price-box">
+                                        <p class="price-nmbr price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="singlet-txt">
+                            <div class="singlet-ttl">
+                                <div class="h3">Wrestling Singlets MDA #11</div>
+                            </div>
+                            <div class="singlet-subtxt">
+                                <p>New! 🔥 According to the rules of the UWW🤼‍️ MOLDOVA singlets! ️ 🤼 Affordable price! 😍 PREMIUM material!</p>
+                            </div>
+                        </div>
+                        <div class="achievments">
+                            <div class="achievement achievement-1 ib">
+                                <div class="achievement-del">
+                                    <div class="achievement-del-img">
+                                        <img src="../img/achievements/fast.svg" alt="">
+                                    </div>
+                                    <div class="achievement-ttl achievement-del-ttl">
+                                        <div class="p">Fast Delivery</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="achievement achievement-2 ib">
+                                <div class="achievement-mat">
+                                    <div class="achievement-mat-img">
+                                        <img src="../img/achievements/mater.svg" alt="">
+                                    </div>
+                                    <div class="achievement-ttl achievement-mat-ttl">
+                                        <div class="p">Premium <br>Material</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="achievement achievement-3 ib">
+                                <div class="achievement-price">
+                                    <div class="achievement-price-img">
+                                        <img src="../img/achievements/price.svg" alt="">
+                                    </div>
+                                    <div class="achievement-ttl achievement-price-ttl">
+                                        <div class="p">Affordable <br>Price</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <br><br><br>
+                        <div class="form-sing">
+                            <form class="formspree" action="https://formspree.io/f/mwpezaeq" method="post" id="singlet01">
+                                <label class="label-singlet" for="email"></label>
+                                <input class="input-email" placeholder="E-mail" type="email" id="email" name="email" required>
+                                
+                                <label class="label-singlet" for="produs1"></label>
+                                <select class="select-singlet color-singlet" id="produs1" name="produs1" required>
+                                    <option class="blue-option" value="set" data-price="100">Set 🔴🔵</option>
+                                    <option class="red-option" value="red" data-price="60">Red 🔴</option>
+                                    <option class="blue-option" value="blue" data-price="60">Blue 🔵</option>
+                                    <!-- Alte opțiuni pentru Produs 1 -->
+                                </select> <br class="tel">
+                                
+                                <label class="label-singlet" for="marime1"></label>
+                        <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
+                            <option class="size-singlets" value="2XL">2XL</option>
+                            <option class="size-singlets" value="XL">XL</option>
+                            <option class="size-singlets" value="L">L</option>
+                            <option class="size-singlets" value="M">M</option>
+                            <option class="size-singlets" value="S">S</option>
+                            <option class="size-singlets" value="XS">XS</option>
+                            <option class="size-singlets" value="2XS">2XS</option>
+                            <!-- Alte opțiuni pentru mărime -->
+                        </select>
+                            <label class="label-singlet" for="sex"></label>
+                            <select class="select-singlet sex-singlet" id="sex" name="M/F" required>
+                                <option value="Masculin">M</option>
+                                <option value="Feminin">F</option>
+                                <label class="label-singlet" for="number"></label>
+                                <input class="input-phone" placeholder="Phone number" type="number" id="number" name="number" required>
+                                <br class="tel">
+                                <!-- Alte opțiuni pentru sex -->
+                                <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">
+                                <p class=" ib terms-box">i agree with the <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
+                                 <input class="submit-order" type="submit" name="submit" id="submit" value="Place order" disabled >
+                                 <p id="warning">Vă rugăm să bifați caseta pentru a continua.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="size">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="size-men">
+                                <img class="size-men-img" src="../img/size-mens.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="size-girl">
+                                <img src="../img/size-g.jpg" alt="" class="size-girl-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="footer-main-logo">
+                                    <h1 class="h1">WREST STYLE</h1>
+                                </div>
+                                <div class="footer-main-icons">
+                                    <div class="inst ib">
+                                        <a href="https://www.instagram.com/wreststyles/"><img src="../img/inst.svg" alt="inst"></a>
+                                    </div>
+                                    <div class="facebook ib">
+                                        <a href="https://www.facebook.com/profile.php?id=61550940031325"><img src="../img/facebook.svg" alt="facebook"></a>
+                                    </div>
+                                    <div class="tiktok ib">
+                                        <a href="#"><img src="../img/tiktok.svg" alt="tiktok"></a>
+                                    </div>
+                                    <div class="mail ib">
+                                        <a href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Ask%20your%20question)"><img src="../img/mail.svg" alt="mail"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offset-md-1 col-md-2">
+                                <div class="footer-main-shop">
+                                    <h4 class="h4">SHOP</h4>
+                                </div>
+                                <div class="footer-main-shop-list">
+                                    <div class="footer-main-shop-list-singlets">
+                                        <a class="tdn black" href="singlets.html"><p class="p footer-main-list-p">Singlets</p></a>
+                                    </div>
+                                    <div class="footer-main-shop-list-shoes">
+                                        <a class="tdn black" href="shoes.html"><p class="p footer-main-list-p">Shoes</p></a>
+                                    </div>
+                                    <div class="footer-main-shop-list-rashguards">
+                                        <a class="tdn black" href="rashguards.html"><p class="p footer-main-list-p">Rashguards</p></a>
+                                    </div>
+                                    <div class="footer-main-shop-list-clothes">
+                                        <a class="tdn black" href="clothes.html"><p class="p footer-main-list-p">Clothes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="footer-main-company">
+                                    <h4 class="h4">COMPANY</h4>
+                                </div>
+                                <div class="footer-main-company-list">
+                                    <div class="footer-main-company-list-ctg">
+                                        <a class="tdn black" href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Custom%20Team%20Gear)"><p class="p footer-main-list-p">Custom Team Gear</p></a>
+                                    </div>
+                                    <div class="footer-main-company-list-staytuned">
+                                        <a class="tdn black" href="#subs"><p class="p footer-main-list-p">Stay Tuned</p></a>
+                                    </div>
+                                    <div class="footer-main-company-list-careers">
+                                        <a class="tdn black" href="#career"><p class="p footer-main-list-p">Careers</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="footer-main-support">
+                                    <h4 class="h4">SUPPORT</h4>
+                                </div>
+                                <div class="footer-main-support-list">
+                                    <div class="footer-main-support-list-contact">
+                                        <a onclick="showDiv()" class="tdn black" href="#top"><p class="p footer-main-list-p">Contact</p></a>
+                                    </div>
+                                    <div class="footer-main-support-list-shipping">
+                                        <a class="tdn black" href="noacces.html"><p class="p footer-main-list-p">Shipping</p></a>
+                                    </div>
+                                    <div class="footer-main-support-list-re">
+                                        <a class="tdn black" href="noacces.html"><p class="p footer-main-list-p">Returns & Exchanges</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="footer-bottom-perms">
+                                <div class="footer-bottom-perms-terms ib">
+                                    <a class="tdn white" href="noacces.html"><p class="micro">Terms</p></a>
+                                </div>
+                                <div class="footer-bottom-perms-privacy ib">
+                                    <a class="tdn white" href="noacces.html"><p class="micro">Privacy</p></a>
+                                </div>
+                                <div class="footer-bottom-perms-accessibility ib">
+                                    <a class="tdn white" href="noacces.html"><p class="micro">Accessibility</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.vide.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/price.js"></script>
+</body>
+</html>
