@@ -1,0 +1,137 @@
+.main {
+  background-color: #dddddd;
+}
+.top-bar {
+  height: 50px;
+  width: 100%;
+  background-color: #dddddd;
+}
+.top-ttl {
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+.top-ttl-h {
+  text-align: center;
+}
+.list {
+  margin-bottom: 30px;
+}
+.prods {
+  margin-bottom: 100px;
+}
+.back {
+  margin-bottom: 120px;
+}
+.back-icon-svg {
+  width: 36px;
+  height: 36px;
+}
+.back-txt {
+  margin-top: 3.5px;
+  margin-left: -40px;
+}
+.footer {
+  border-top: 2px solid #111111;
+}
+.prdct-lab-img img {
+  height: 237px;
+  width: 231px;
+}
+.prdct-lab-cms {
+  margin-top: 120px;
+}
+.mtf7 {
+  margin-top: 3.5rem;
+}
+.mtf7 img {
+  width: 90%;
+  height: 90%;
+}
+.cyan-red-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #006cc5, red);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.gray-red-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, gray, red);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.white-gold-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, white, gold);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.gray-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #C8C8C8;
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.darkgray-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #5A5353;
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.cyan-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #1e80ff;
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.cyan-gray-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #C8C8C8, #1e80ff);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.red-white-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, red, white);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.black-gold-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #111111, gold);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.gray-pink-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #C8C8C8, silver);
+  display: inline-block;
+  border: 0.2px solid black;
+}
+.lime-style {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, lime, lime);
+  display: inline-block;
+  border: 0.2px solid black;
+}

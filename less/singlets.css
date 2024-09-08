@@ -1,0 +1,194 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+#red-blue {
+  text-align: center;
+}
+.red-prev {
+  margin-top: 10px;
+  background-color: red;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.blue-next {
+  margin-top: 10px;
+  margin-left: 32px;
+  background-color: blue;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.red-prev:hover,
+.blue-next:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.topb {
+  width: 100%;
+  height: 130px;
+}
+.carousel-inner {
+  border-radius: 16px;
+  border: 1px solid #5A5353;
+  padding: 39.5px 68px;
+}
+.singlet-ttl {
+  margin-top: 39px;
+  text-align: center;
+}
+.singlet-subtxt {
+  margin-top: 30px;
+  text-align: center;
+}
+.achievments {
+  margin-top: 83px;
+  text-align: center;
+  width: 100%;
+}
+.achievement {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.achievement-del {
+  position: relative;
+  top: -28px;
+}
+.achievement-ttl {
+  margin-top: 5px;
+}
+.achievement-ttl .p {
+  color: green;
+}
+.achievement-ttl .p:hover {
+  color: red;
+  font-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.price-box {
+  position: relative;
+  left: 180px;
+  bottom: 50px;
+}
+.price-nmbr {
+  color: green;
+  font-weight: normal;
+  font-size: 22px;
+}
+.select-singlet {
+  margin-top: 10px;
+  border-radius: 16px;
+  border: 2px solid #5C7E97;
+  text-align: center;
+}
+.input-email {
+  padding: 8px 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 16px;
+  border: 2px solid #5C7E97;
+  width: 244px;
+  height: 43px;
+}
+.input-phone {
+  padding: 8px 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 16px;
+  border: 2px solid #5C7E97;
+  width: 244px;
+  height: 43px;
+}
+.color-singlet {
+  padding: 8px 0px;
+  width: 200px;
+  height: 43px;
+}
+.size-singlet {
+  padding: 8px 15px;
+  width: 110px;
+  height: 43px;
+}
+.sex-singlet {
+  padding: 8px 0px;
+  width: 50px;
+  height: 43px;
+}
+.submit-order {
+  width: 200px;
+  height: 41px;
+  text-align: center;
+  padding-right: 16px;
+  color: #111111;
+  border-radius: 16px;
+  border: 2px solid green;
+  margin-top: 10px;
+  margin-left: 258px;
+  font-weight: 500;
+  margin-bottom: 240px;
+}
+.submit-order:hover {
+  background-color: green;
+}
+#warning {
+  display: none;
+  color: red;
+}
+#terms {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.top-bar {
+  position: static;
+}
+.links {
+  text-align: center;
+}
+.terms-box {
+  font-size: 12px;
+}
+.size-men-img {
+  width: 100%;
+}
+.size-girl {
+  margin-top: 120px;
+  margin-bottom: 150px;
+}
+.size-girl-img {
+  width: 100%;
+}
+.tel {
+  display: none;
+}
+.curency-div {
+  margin-top: -25px;
+}
+@media (max-width: 577px) {
+  .curency-div {
+    margin-top: -18px;
+  }
+  .red-prev {
+    margin-left: 50px;
+  }
+  .formspree {
+    text-align: center;
+  }
+  .tel {
+    display: block;
+  }
+  .submit-order {
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 577px) {
+  .links {
+    text-align: center;
+    margin-left: 15px;
+  }
+}
