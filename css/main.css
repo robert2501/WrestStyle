@@ -347,7 +347,7 @@ p {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background-image: linear-gradient(to right, #ffffff, #ff0000);
+  background-image: linear-gradient(to right, #808080, #ffa500);
   display: inline-block;
   border: 0.2px solid black;
 }
