@@ -4,6 +4,10 @@
 .black {
   color: #111111;
 }
+.logo-berserk {
+  width: 50%;
+  margin-top: 30px;
+}
 .h1 {
   font-size: 40px;
   font-weight: 900;
