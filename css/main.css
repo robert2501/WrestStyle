@@ -197,10 +197,11 @@ p {
 .singlets-img {
   padding-top: 50px;
   text-align: center;
+  padding-left:90px;
 }
 .singlets-img img {
-  width: 461px;
-  height: 451px;
+  width: 500px;
+  height: 400px;
 }
 .singlets-btn {
   width: 100%;
