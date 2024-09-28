@@ -195,8 +195,8 @@ p {
   text-align: center;
 }
 .singlets-img img {
-  width: 461px;
-  height: 451px;
+  width: auto;
+  height: 100%;
 }
 .singlets-btn {
   width: 100%;
