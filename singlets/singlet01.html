@@ -181,8 +181,9 @@
                             <option class="size-singlets" value="georgia">Georgia</option>
 
                             <label class="label-singlet" for="discount"></label>
-                            <input class="input-discount" placeholder="Discount code" type="text" id="discount" name="discount">
-                            <p id="discount-message"></p>
+<input class="input-discount" placeholder="Discount code" type="text" id="discount" name="discount" oninput="validateDiscountCode()" onfocusout="validateDiscountCode()">
+<p id="discount-message"></p>
+
 
                                 <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">
                                 <p class=" ib terms-box">i agree with the <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
