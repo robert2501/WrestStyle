@@ -146,3 +146,33 @@ function convertCurrency() {
 }
 
 // Curency convertor
+
+
+ const validCode = "darius80";
+    
+    function validateDiscountCode() {
+        const discountInput = document.getElementById("discount").value;
+        const message = document.getElementById("discount-message");
+        const submitButton = document.getElementById("submit");
+
+        if (discountInput === "") {
+            message.textContent = ""; // Lasă mesajul gol dacă nu este introdus nimic
+            submitButton.disabled = false; // Permite plasarea comenzii
+        } else if (discountInput === validCode) {
+            message.textContent = "This code is valid";
+            message.style.color = "green";
+            submitButton.disabled = false; // Permite plasarea comenzii
+        } else {
+            message.textContent = "The code is incorrect or expired";
+            message.style.color = "red";
+            submitButton.disabled = true; // Blochează plasarea comenzii
+        }
+    }
+
+    // Activează funcția de validare când utilizatorul tastează în câmpul de discount
+    document.getElementById("discount").addEventListener("input", validateDiscountCode);
+
+    function activateButton(termsCheckbox) {
+        const submitButton = document.getElementById("submit");
+        submitButton.disabled = !termsCheckbox.checked; // Activează sau dezactivează butonul în funcție de bifarea Termenilor
+    }
