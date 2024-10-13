@@ -672,3 +672,8 @@ p {
     height: 100%;
   }
 }
+
+#discount-message {
+    font-size: 14px;
+    margin-top: 5px;
+}
