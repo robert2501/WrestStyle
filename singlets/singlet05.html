@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                         </div> <br><br><br>
-                        <div class="form-sing">
+                       <div class="form-sing">
                             <form class="formspree" action="https://formspree.io/f/mwpezaeq" method="post" id="singlet01">
                                 <label class="label-singlet" for="email"></label>
                                 <input class="input-email" placeholder="E-mail" type="email" id="email" name="email" required>
@@ -133,59 +133,80 @@
                                     <option class="blue-option" value="set" data-price="100">Set 🔴🔵</option>
                                     <option class="red-option" value="red" data-price="60">Red 🔴</option>
                                     <option class="blue-option" value="blue" data-price="60">Blue 🔵</option>
-                                    <!-- Alte opțiuni pentru Produs 1 -->
                                 </select> <br class="tel">
                                 
                                 <label class="label-singlet" for="marime1"></label>
-                        <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
-                            <option class="size-singlets" value="2XL">2XL</option>
-                            <option class="size-singlets" value="XL">XL</option>
-                            <option class="size-singlets" value="L">L</option>
-                            <option class="size-singlets" value="M">M</option>
-                            <option class="size-singlets" value="S">S</option>
-                            <option class="size-singlets" value="XS">XS</option>
-                            <option class="size-singlets" value="2XS">2XS</option>
-                            <!-- Alte opțiuni pentru mărime -->
-                        </select>
-                            <label class="label-singlet" for="sex"></label>
-                            <select class="select-singlet sex-singlet" id="sex" name="M/F" required>
-                                <option value="Masculin">M</option>
-                                <option value="Feminin">F</option>
+                                <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
+                                    <option class="size-singlets" value="2XL">2XL</option>
+                                    <option class="size-singlets" value="XL">XL</option>
+                                    <option class="size-singlets" value="L">L</option>
+                                    <option class="size-singlets" value="M">M</option>
+                                    <option class="size-singlets" value="S">S</option>
+                                    <option class="size-singlets" value="XS">XS</option>
+                                    <option class="size-singlets" value="2XS">2XS</option>
+                                </select>
+                        
+                                <label class="label-singlet" for="sex"></label>
+                                <select class="select-singlet sex-singlet" id="sex" name="M/F" required>
+                                    <option value="Masculin">M</option>
+                                    <option value="Feminin">F</option>
+                                </select>
+                        
                                 <label class="label-singlet" for="number"></label>
                                 <input class="input-phone" placeholder="Phone number" type="number" id="number" name="number" required>
                                 <br class="tel">
-                                <!-- Alte opțiuni pentru sex -->
+                        
                                 <label class="label-singlet" for="marime1"></label>
-                        <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
-                            <option class="size-singlets" value="moldova">Moldova</option>
-                            <option class="size-singlets" value="romania">Romania</option>
-                            <option class="size-singlets" value="ukraina">Ukraine</option>
-                            <option class="size-singlets" value="anglia">England</option>
-                            <option class="size-singlets" value="spain">Spain</option>
-                            <option class="size-singlets" value="france">France</option>
-                            <option class="size-singlets" value="ungaria">Hungary</option>
-                            <option class="size-singlets" value="germania">Germany</option>
-                            <option class="size-singlets" value="bulgaria">Bulgaria</option>
-                            <option class="size-singlets" value="turcia">Turkey</option>
-                            <option class="size-singlets" value="grecia">Greece</option>
-                            <option class="size-singlets" value="serbia">Serrbia</option>
-                            <option class="size-singlets" value="slovacia">Slovakia</option>
-                            <option class="size-singlets" value="italia">Italy</option>
-                            <option class="size-singlets" value="sweden">Sweden</option>
-                            <option class="size-singlets" value="polonia">Poland</option>
-                            <option class="size-singlets" value="lituania">Lithuania</option>
-                            <option class="size-singlets" value="estonia">Estonia</option>
-                            <option class="size-singlets" value="israel">Israel</option>
-                            <option class="size-singlets" value="kazakhstan">Kazakhstan</option>
-                            <option class="size-singlets" value="georgia">Georgia</option>
-
+                                <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
+                                    <option class="size-singlets" value="moldova">Moldova</option>
+                                    <option class="size-singlets" value="romania">Romania</option>
+                                    <option class="size-singlets" value="ukraina">Ukraine</option>
+                                    <option class="size-singlets" value="anglia">England</option>
+                                    <option class="size-singlets" value="spain">Spain</option>
+                                    <option class="size-singlets" value="france">France</option>
+                                    <!-- Alte opțiuni -->
+                                </select>
+                        
+                                <!-- Câmp nou pentru codul de discount -->
+                                <label class="label-singlet" for="discount"></label>
+                                <input class="input-discount input-email" placeholder="Discount code" type="text" id="discount" name="discount" oninput="validateDiscountCode()" onfocusout="validateDiscountCode()">
+                                <p id="discount-message"></p> <!-- Mesaj pentru codul de discount -->
+                        
                                 <br>
                                 <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">
-                                <p class=" ib terms-box">i agree with the <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
-                                 <input class="submit-order" type="submit" name="submit" id="submit" value="Place order" disabled >
-                                 <p id="warning">Vă rugăm să bifați caseta pentru a continua.</p>
+                                <p class="ib terms-box">I agree with the <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
+                                <input class="submit-order" type="submit" name="submit" id="submit" value="Place order" disabled>
+                                <p id="warning">Vă rugăm să bifați caseta pentru a continua.</p>
                             </form>
                         </div>
+                        <script>
+                            const validCode = "darius80"; // Codul valid
+                        
+                            function validateDiscountCode() {
+                                const discountInput = document.getElementById("discount").value; // Valoarea introdusă
+                                const message = document.getElementById("discount-message"); // Mesajul de feedback
+                                const submitButton = document.getElementById("submit"); // Butonul de trimitere
+                        
+                                // Verificare cod introdus
+                                if (discountInput === "") {
+                                    message.textContent = ""; // Mesaj gol dacă nu se introduce nimic
+                                    submitButton.disabled = false; // Permite plasarea comenzii
+                                } else if (discountInput === validCode) {
+                                    message.textContent = "This code is valid"; // Mesaj de validare
+                                    message.style.color = "green"; // Textul va fi verde
+                                    submitButton.disabled = false; // Permite plasarea comenzii
+                                } else {
+                                    message.textContent = "The code is incorrect or expired"; // Mesaj de eroare
+                                    message.style.color = "red"; // Textul va fi roșu
+                                    submitButton.disabled = true; // Blochează plasarea comenzii
+                                }
+                            }
+                        
+                            function activateButton(termsCheckbox) {
+                                const submitButton = document.getElementById("submit");
+                                submitButton.disabled = !termsCheckbox.checked; // Activează sau dezactivează butonul în funcție de bifarea Termenilor
+                            }
+                        </script>
                     </div>
                 </div>
             </div>
