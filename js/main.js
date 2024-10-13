@@ -147,30 +147,27 @@ function convertCurrency() {
 
 // Curency convertor
 
+const validCode = "darius80"; // Codul corect
 
- const validCode = "darius80";
-    
     function validateDiscountCode() {
-        const discountInput = document.getElementById("discount").value;
-        const message = document.getElementById("discount-message");
-        const submitButton = document.getElementById("submit");
+        const discountInput = document.getElementById("discount").value; // Valoarea introdusă
+        const message = document.getElementById("discount-message"); // Mesajul de feedback
+        const submitButton = document.getElementById("submit"); // Butonul de trimitere
 
+        // Verificare cod introdus
         if (discountInput === "") {
-            message.textContent = ""; // Lasă mesajul gol dacă nu este introdus nimic
+            message.textContent = ""; // Mesaj gol dacă nu se introduce nimic
             submitButton.disabled = false; // Permite plasarea comenzii
         } else if (discountInput === validCode) {
-            message.textContent = "This code is valid";
-            message.style.color = "green";
+            message.textContent = "This code is valid"; // Mesaj de validare
+            message.style.color = "green"; // Textul va fi verde
             submitButton.disabled = false; // Permite plasarea comenzii
         } else {
-            message.textContent = "The code is incorrect or expired";
-            message.style.color = "red";
+            message.textContent = "The code is incorrect or expired"; // Mesaj de eroare
+            message.style.color = "red"; // Textul va fi roșu
             submitButton.disabled = true; // Blochează plasarea comenzii
         }
     }
-
-    // Activează funcția de validare când utilizatorul tastează în câmpul de discount
-    document.getElementById("discount").addEventListener("input", validateDiscountCode);
 
     function activateButton(termsCheckbox) {
         const submitButton = document.getElementById("submit");
