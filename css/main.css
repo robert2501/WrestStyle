@@ -677,3 +677,33 @@ p {
     font-size: 14px;
     margin-top: 5px;
 }
+
+
+
+.swiper {
+  width: 1280px;
+  height: 720px;
+}
+.swiper-slide img {
+  width: 100%;
+}
+.gallery-option {
+  margin-top: 120px;
+}
+.gallery-tittle {
+  margin-bottom: 50px;
+  margin-right: -200px;
+  background: linear-gradient(#ffffff 0 0) padding-box, /* Grey background */ linear-gradient(to right, #000000, transparent) border-box;
+  /* Gradient border */
+  padding-right: 178px;
+  padding-left: 16px;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+  left: -7%;
+}
+.tar {
+  text-align: right;
+}
+
