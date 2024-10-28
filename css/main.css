@@ -707,3 +707,12 @@ p {
   text-align: right;
 }
 
+
+
+@media (max-width: 577px) {
+  .swiper {
+    width: 360px;
+    height: 210px;
+    margin-left: -4px;
+  }
+}
