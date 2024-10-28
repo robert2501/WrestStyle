@@ -716,3 +716,11 @@ p {
     margin-left: -4px;
   }
 }
+
+
+.slider-arrow {
+  border: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
