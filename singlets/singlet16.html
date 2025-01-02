@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrestling Singlets #16</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/singlets.css">
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="main">
+        <div class="topb">
+            <div class="container">
+               <div class="top-bar">
+                   <div class="row">
+                       <div class="col-md-1 col-1">
+                           <div class="logo"> <!--LOGO-->
+                               <a href="../index.html"><img class="logo-top" src="../img/logoalb.png" alt="Logo"></a>
+                           </div>
+                       </div>
+                       <div class="offset-md-1 col-md-8 col-9">
+                           <div class="links"> <!--LINKURI TOP-->
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../singlets.html">Singlets</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../shoes.html">Shoes</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../rashguards.html">Rashguards</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../clothes.html">Clothes</a>
+                               </div>
+                               <div class="links-top">
+                                   <a class="links-top-txt" href="../aboutus.html">About us</a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-1 col-1">
+                        <div class="curency-div ib">
+                            <label for="currency"></label>
+                        <select class="curency-select" id="currency" onchange="convertCurrency()">
+                            <option value="EUR">🇪🇺 EUR</option>
+                            <option value="USD">🇺🇸 USD</option>
+                            <option value="MDL">🇲🇩 MDL</option>
+                        </select>
+                        </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <div class="singlets-carousel"> <!-- IMAGINILE -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="red-blue-carousel">
+                            <div id="red-blue" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/singlets/blue-abc.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/singlets/red-abc.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="red-prev" type="button" data-bs-target="#red-blue" data-bs-slide="prev"></button>
+                                <button class="blue-next" type="button" data-bs-target="#red-blue" data-bs-slide="next"></button>
+                                <div class="ib">
+                                    <div class="price-box">
+                                        <p class="price-nmbr price"data-usd="110" data-eur="100" data-mdl="2000">100 €</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="singlet-txt">
+                            <div class="singlet-ttl">
+                                <div class="h3">Wrestling Singlets</div>
+                            </div>
+                            <div class="singlet-subtxt">
+                                <p>New! 🔥 According to the rules of the UWW🤼‍️ Any country singlets! ️ 🤼 Affordable price! 😍 PREMIUM material!</p>
+                            </div>
+                        </div>
+                        <div class="achievments">
+                            <div class="achievement achievement-1 ib">
+                                <div class="achievement-del">
+                                    <div class="achievement-del-img">
+                                        <img src="../img/achievements/fast.svg" alt="">
+                                    </div>
+                                    <div class="achievement-ttl achievement-del-ttl">
+                                        <div class="p">Fast Delivery</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="achievement achievement-2 ib">
+                                <div class="achievement-mat">
+                                    <div class="achievement-mat-img">
+                                        <img src="../img/achievements/mater.svg" alt="">
+                                    </div>
+                                    <div class="achievement-ttl achievement-mat-ttl">
+                                        <div class="p">Premium <br>Material</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="achievement achievement-3 ib">
+                                <div class="achievement-price">
+                                    <div class="achievement-price-img">
+                                        <img src="../img/achievements/price.svg" alt="">
+                                    </div>
+                                    <div class="achievement-ttl achievement-price-ttl">
+                                        <div class="p">Affordable <br>Price</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <br><br><br>
+                        <div class="form-sing">
+                            <form class="formspree" action="https://formspree.io/f/mbllplbd" method="post" id="singlet01">
+                                <label class="label-singlet" for="email"></label>
+                                <input class="input-email" placeholder="E-mail" type="email" id="email" name="email" required>
+                                
+                                <label class="label-singlet" for="produs1"></label>
+                                <select class="select-singlet color-singlet" id="produs1" name="produs1" required>
+                                    <option class="blue-option" value="set" data-price="100">Set 🔴🔵</option>
+                                    <option class="red-option" value="red" data-price="60">Red 🔴</option>
+                                    <option class="blue-option" value="blue" data-price="60">Blue 🔵</option>
+                                </select> <br class="tel">
+                                
+                                <label class="label-singlet" for="marime1"></label>
+                                <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
+                                    <option class="size-singlets" value="2XL">2XL</option>
+                                    <option class="size-singlets" value="XL">XL</option>
+                                    <option class="size-singlets" value="L">L</option>
+                                    <option class="size-singlets" value="M">M</option>
+                                    <option class="size-singlets" value="S">S</option>
+                                    <option class="size-singlets" value="XS">XS</option>
+                                    <option class="size-singlets" value="2XS">2XS</option>
+                                </select>
+                        
+                                <label class="label-singlet" for="sex"></label>
+                                <select class="select-singlet sex-singlet" id="sex" name="M/F" required>
+                                    <option value="Masculin">M</option>
+                                    <option value="Feminin">F</option>
+                                </select>
+                        
+                                <label class="label-singlet" for="number"></label>
+                                <input class="input-phone" placeholder="Phone number" type="number" id="number" name="number" required>
+                                <br class="tel">
+                        
+                                <label class="label-singlet" for="marime1"></label>
+                                <select class="select-singlet size-singlet" id="marime1" name="marime1" required>
+                                    <option class="size-singlets" value="moldova">Moldova</option>
+                                    <option class="size-singlets" value="romania">Romania</option>
+                                    <option class="size-singlets" value="ukraina">Ukraine</option>
+                                    <option class="size-singlets" value="anglia">England</option>
+                                    <option class="size-singlets" value="spain">Spain</option>
+                                    <option class="size-singlets" value="france">France</option>
+                                    <option class="size-singlets" value="germany">Germany</option>
+                                    <option class="size-singlets" value="italy">Italy</option>
+                                    <option class="size-singlets" value="Poland">Poland</option>
+                                    <option class="size-singlets" value="Netherlands">Netherlands</option>
+                                    <option class="size-singlets" value="Sweden">Sweden</option>
+                                    <option class="size-singlets" value="Greece">Greece</option>
+                                    <option class="size-singlets" value="Hungary">Hungary</option>
+                                    <option class="size-singlets" value="Bulgaria">Bulgaria</option>
+                                    <option class="size-singlets" value="Serbia">Serbia</option>
+                                    <option class="size-singlets" value="Finland">Finland</option>
+                                    <option class="size-singlets" value="Norway">Norway</option>
+                                    <option class="size-singlets" value="Slovakia">Slovakia</option>
+                                    <option class="size-singlets" value="Croatia">Croatia</option>
+                                    <option class="size-singlets" value="Lithuania">Lithuania</option>
+                                    <option class="size-singlets" value="Albania">Albania</option>
+                                    <option class="size-singlets" value="Slovenia">Slovenia</option>
+                                    <option class="size-singlets" value="Latvia">Latvia</option>
+                                    <option class="size-singlets" value="Estonia">Estonia</option>
+                                    <option class="size-singlets" value="Turkey">Turkey</option>
+                                    <option class="size-singlets" value="Uzbekistan">Uzbekistan</option>
+                                    <option class="size-singlets" value="Kazakhstan">Kazakhstan</option>
+                                    <option class="size-singlets" value="Israel">Israel</option>
+                                    <option class="size-singlets" value="Turkmenistan">Turkmenistan</option>
+                                    <option class="size-singlets" value="Kyrgyzstan">Kyrgyzstan</option>
+                                    <option class="size-singlets" value="Georgia">Georgia</option>
+                                    <option class="size-singlets" value="Armenia">Armenia</option>
+                                    <!-- Alte opțiuni -->
+                                </select>
+                        <!-- Câmp nou pentru codul de discount -->
+                                <label class="label-singlet" for="discount"></label>
+                                <input class="input-discount input-discount" placeholder="Discount code" type="text" id="discount" name="discount" oninput="validateDiscountCode()" onfocusout="validateDiscountCode()">
+                                <p id="discount-message"></p> <!-- Mesaj pentru codul de discount -->
+                        
+                                <br>
+                                <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">
+                                <p class="ib terms-box">I agree with the <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
+                                <input class="submit-order" type="submit" name="submit" id="submit" value="Place order" disabled>
+                                <p id="warning">Vă rugăm să bifați caseta pentru a continua.</p>
+                            </form>
+                        </div>
+                        <script>
+                            const validCode = "darius80"; // Codul valid
+                        
+                            function validateDiscountCode() {
+                                const discountInput = document.getElementById("discount").value; // Valoarea introdusă
+                                const message = document.getElementById("discount-message"); // Mesajul de feedback
+                                const submitButton = document.getElementById("submit"); // Butonul de trimitere
+                        
+                                // Verificare cod introdus
+                                if (discountInput === "") {
+                                    message.textContent = ""; // Mesaj gol dacă nu se introduce nimic
+                                    submitButton.disabled = false; // Permite plasarea comenzii
+                                } else if (discountInput === validCode) {
+                                    message.textContent = "This code is valid"; // Mesaj de validare
+                                    message.style.color = "green"; // Textul va fi verde
+                                    submitButton.disabled = false; // Permite plasarea comenzii
+                                } else {
+                                    message.textContent = "The code is incorrect or expired"; // Mesaj de eroare
+                                    message.style.color = "red"; // Textul va fi roșu
+                                    submitButton.disabled = true; // Blochează plasarea comenzii
+                                }
+                            }
+                        
+                            function activateButton(termsCheckbox) {
+                                const submitButton = document.getElementById("submit");
+                                submitButton.disabled = !termsCheckbox.checked; // Activează sau dezactivează butonul în funcție de bifarea Termenilor
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="size">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="size-men">
+                                <img class="size-men-img" src="../img/size-mens.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="size-girl">
+                                <img src="../img/size-g.jpg" alt="" class="size-girl-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="footer-main-logo">
+                                    <h1 class="h1">WREST STYLE</h1>
+                                </div>
+                                <div class="footer-main-icons">
+                                    <div class="inst ib">
+                                        <a href="https://www.instagram.com/wreststyles/"><img src="../img/inst.svg" alt="inst"></a>
+                                    </div>
+                                    <div class="facebook ib">
+                                        <a href="https://www.facebook.com/profile.php?id=61550940031325"><img src="../img/facebook.svg" alt="facebook"></a>
+                                    </div>
+                                    <div class="tiktok ib">
+                                        <a href="#"><img src="../img/tiktok.svg" alt="tiktok"></a>
+                                    </div>
+                                    <div class="mail ib">
+                                        <a href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Ask%20your%20question)"><img src="../img/mail.svg" alt="mail"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offset-md-1 col-md-2">
+                                <div class="footer-main-shop">
+                                    <h4 class="h4">SHOP</h4>
+                                </div>
+                                <div class="footer-main-shop-list">
+                                    <div class="footer-main-shop-list-singlets">
+                                        <a class="tdn black" href="singlets.html"><p class="p footer-main-list-p">Singlets</p></a>
+                                    </div>
+                                    <div class="footer-main-shop-list-shoes">
+                                        <a class="tdn black" href="shoes.html"><p class="p footer-main-list-p">Shoes</p></a>
+                                    </div>
+                                    <div class="footer-main-shop-list-rashguards">
+                                        <a class="tdn black" href="rashguards.html"><p class="p footer-main-list-p">Rashguards</p></a>
+                                    </div>
+                                    <div class="footer-main-shop-list-clothes">
+                                        <a class="tdn black" href="clothes.html"><p class="p footer-main-list-p">Clothes</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="footer-main-company">
+                                    <h4 class="h4">COMPANY</h4>
+                                </div>
+                                <div class="footer-main-company-list">
+                                    <div class="footer-main-company-list-ctg">
+                                        <a class="tdn black" href="mailto:wreststyles@gmail.com?subject=Subiectul%20Emailului&body=Hello!%0AMy%20name%20is:%20%20%20.%0AMy%20phone%20number:%20%20%20.%0A(Custom%20Team%20Gear)"><p class="p footer-main-list-p">Custom Team Gear</p></a>
+                                    </div>
+                                    <div class="footer-main-company-list-staytuned">
+                                        <a class="tdn black" href="#subs"><p class="p footer-main-list-p">Stay Tuned</p></a>
+                                    </div>
+                                    <div class="footer-main-company-list-careers">
+                                        <a class="tdn black" href="#career"><p class="p footer-main-list-p">Careers</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="footer-main-support">
+                                    <h4 class="h4">SUPPORT</h4>
+                                </div>
+                                <div class="footer-main-support-list">
+                                    <div class="footer-main-support-list-contact">
+                                        <a onclick="showDiv()" class="tdn black" href="#top"><p class="p footer-main-list-p">Contact</p></a>
+                                    </div>
+                                    <div class="footer-main-support-list-shipping">
+                                        <a class="tdn black" href="noacces.html"><p class="p footer-main-list-p">Shipping</p></a>
+                                    </div>
+                                    <div class="footer-main-support-list-re">
+                                        <a class="tdn black" href="noacces.html"><p class="p footer-main-list-p">Returns & Exchanges</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="footer-bottom-perms">
+                                <div class="footer-bottom-perms-terms ib">
+                                    <a class="tdn white" href="noacces.html"><p class="micro">Terms</p></a>
+                                </div>
+                                <div class="footer-bottom-perms-privacy ib">
+                                    <a class="tdn white" href="noacces.html"><p class="micro">Privacy</p></a>
+                                </div>
+                                <div class="footer-bottom-perms-accessibility ib">
+                                    <a class="tdn white" href="noacces.html"><p class="micro">Accessibility</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.vide.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/price.js"></script>
+</body>
+</html>
